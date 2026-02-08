@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "easybedrockbreaker",
+	"version": "${version}",
+	"name": "EasyBedrockBreaker",
+	"description": "This is Port mod of bread's Easy Bedrock Breaker!",
+	"authors": [
+		"bread",
+		"hirowassan"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/hirowassan/EasyBedrockBreaker-1.19.4"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/easybedrockbreaker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hirowassan.EasyBedrockBreaker"
+		]
+	},
+	"mixins": [
+		"easybedrockbreaker.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
